@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A70B78992072796000B11254 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70B78982072795F00B11254 /* Colors.swift */; };
+		A74C163820738A50006459C3 /* API.Campaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C163720738A50006459C3 /* API.Campaign.swift */; };
+		A74C163A20738A83006459C3 /* ModelProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C163920738A83006459C3 /* ModelProtocols.swift */; };
+		A74C163F20739EBA006459C3 /* CampaignViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C163E20739EBA006459C3 /* CampaignViewModel.swift */; };
+		A74C16412073AFFC006459C3 /* ViewControllerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C16402073AFFC006459C3 /* ViewControllerState.swift */; };
+		A74C16432073B9BE006459C3 /* CampaignCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74C16422073B9BE006459C3 /* CampaignCell.swift */; };
+		A782AF542074C5CC00072517 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A782AF532074C5CC00072517 /* Localizable.strings */; };
+		A7CE3FD02073875600D77D41 /* KastaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CE3FCF2073875600D77D41 /* KastaAPI.swift */; };
+		A7CE3FD22073887500D77D41 /* APIStubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CE3FD12073887500D77D41 /* APIStubs.swift */; };
+		A7EE88062072630600CB7588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EE88052072630600CB7588 /* AppDelegate.swift */; };
+		A7EE88082072630600CB7588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EE88072072630600CB7588 /* ViewController.swift */; };
+		A7EE880D2072630600CB7588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7EE880C2072630600CB7588 /* Assets.xcassets */; };
+		A7EE88102072630600CB7588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7EE880E2072630600CB7588 /* LaunchScreen.storyboard */; };
+		D0DD05360B4401ACAE664BF9 /* Pods_liteKasta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A09F010E4D2AD136FF375E8 /* Pods_liteKasta.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A09F010E4D2AD136FF375E8 /* Pods_liteKasta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liteKasta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F65A88F3A2395A8065A2AC /* Pods-liteKasta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liteKasta.release.xcconfig"; path = "Pods/Target Support Files/Pods-liteKasta/Pods-liteKasta.release.xcconfig"; sourceTree = "<group>"; };
+		A70B78982072795F00B11254 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A74C163720738A50006459C3 /* API.Campaign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.Campaign.swift; sourceTree = "<group>"; };
+		A74C163920738A83006459C3 /* ModelProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelProtocols.swift; sourceTree = "<group>"; };
+		A74C163E20739EBA006459C3 /* CampaignViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignViewModel.swift; sourceTree = "<group>"; };
+		A74C16402073AFFC006459C3 /* ViewControllerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerState.swift; sourceTree = "<group>"; };
+		A74C16422073B9BE006459C3 /* CampaignCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignCell.swift; sourceTree = "<group>"; };
+		A782AF532074C5CC00072517 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A7CE3FCF2073875600D77D41 /* KastaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KastaAPI.swift; sourceTree = "<group>"; };
+		A7CE3FD12073887500D77D41 /* APIStubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIStubs.swift; sourceTree = "<group>"; };
+		A7EE88022072630600CB7588 /* liteKasta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liteKasta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EE88052072630600CB7588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7EE88072072630600CB7588 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7EE880C2072630600CB7588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7EE880F2072630600CB7588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7EE88112072630600CB7588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C66EDB89014D4C691D12592F /* Pods-liteKasta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liteKasta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liteKasta/Pods-liteKasta.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7EE87FF2072630600CB7588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DD05360B4401ACAE664BF9 /* Pods_liteKasta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A9184A87689B663B4A93CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C66EDB89014D4C691D12592F /* Pods-liteKasta.debug.xcconfig */,
+				79F65A88F3A2395A8065A2AC /* Pods-liteKasta.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8195BEB627FB82D77AB9654F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A09F010E4D2AD136FF375E8 /* Pods_liteKasta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A70B789B20727E9300B11254 /* Auxiliary */ = {
+			isa = PBXGroup;
+			children = (
+				A7EE88112072630600CB7588 /* Info.plist */,
+				A7EE88052072630600CB7588 /* AppDelegate.swift */,
+				A70B78982072795F00B11254 /* Colors.swift */,
+				A7EE880C2072630600CB7588 /* Assets.xcassets */,
+				A7EE880E2072630600CB7588 /* LaunchScreen.storyboard */,
+				A782AF532074C5CC00072517 /* Localizable.strings */,
+			);
+			path = Auxiliary;
+			sourceTree = "<group>";
+		};
+		A74C163620738A46006459C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A74C163720738A50006459C3 /* API.Campaign.swift */,
+				A74C163920738A83006459C3 /* ModelProtocols.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A74C163D20739E44006459C3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A74C163E20739EBA006459C3 /* CampaignViewModel.swift */,
+				A7EE88072072630600CB7588 /* ViewController.swift */,
+				A74C16402073AFFC006459C3 /* ViewControllerState.swift */,
+				A74C16422073B9BE006459C3 /* CampaignCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A7EE87F92072630600CB7588 = {
+			isa = PBXGroup;
+			children = (
+				A7EE88042072630600CB7588 /* liteKasta */,
+				A7EE88032072630600CB7588 /* Products */,
+				11A9184A87689B663B4A93CE /* Pods */,
+				8195BEB627FB82D77AB9654F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7EE88032072630600CB7588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7EE88022072630600CB7588 /* liteKasta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7EE88042072630600CB7588 /* liteKasta */ = {
+			isa = PBXGroup;
+			children = (
+				A7EE8A1F207367D800976C1E /* API */,
+				A70B789B20727E9300B11254 /* Auxiliary */,
+				A74C163D20739E44006459C3 /* ViewController */,
+			);
+			path = liteKasta;
+			sourceTree = "<group>";
+		};
+		A7EE8A1F207367D800976C1E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A7CE3FD12073887500D77D41 /* APIStubs.swift */,
+				A7CE3FCF2073875600D77D41 /* KastaAPI.swift */,
+				A74C163620738A46006459C3 /* Models */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7EE88012072630600CB7588 /* liteKasta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EE88142072630600CB7588 /* Build configuration list for PBXNativeTarget "liteKasta" */;
+			buildPhases = (
+				5AA96506BB57F6EF3BD54A40 /* [CP] Check Pods Manifest.lock */,
+				A7EE87FE2072630600CB7588 /* Sources */,
+				A7EE87FF2072630600CB7588 /* Frameworks */,
+				A7EE88002072630600CB7588 /* Resources */,
+				7B352E9AF717215116FF0673 /* [CP] Embed Pods Frameworks */,
+				8EE0810A0ECE2A8CBA8A132E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liteKasta;
+			productName = liteKasta;
+			productReference = A7EE88022072630600CB7588 /* liteKasta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7EE87FA2072630600CB7588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Markason LLC";
+				TargetAttributes = {
+					A7EE88012072630600CB7588 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A7EE87FD2072630600CB7588 /* Build configuration list for PBXProject "liteKasta" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7EE87F92072630600CB7588;
+			productRefGroup = A7EE88032072630600CB7588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7EE88012072630600CB7588 /* liteKasta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7EE88002072630600CB7588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EE88102072630600CB7588 /* LaunchScreen.storyboard in Resources */,
+				A782AF542074C5CC00072517 /* Localizable.strings in Resources */,
+				A7EE880D2072630600CB7588 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AA96506BB57F6EF3BD54A40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-liteKasta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B352E9AF717215116FF0673 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-liteKasta/Pods-liteKasta-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liteKasta/Pods-liteKasta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EE0810A0ECE2A8CBA8A132E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liteKasta/Pods-liteKasta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7EE87FE2072630600CB7588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74C163820738A50006459C3 /* API.Campaign.swift in Sources */,
+				A74C163F20739EBA006459C3 /* CampaignViewModel.swift in Sources */,
+				A7CE3FD02073875600D77D41 /* KastaAPI.swift in Sources */,
+				A74C16432073B9BE006459C3 /* CampaignCell.swift in Sources */,
+				A7EE88082072630600CB7588 /* ViewController.swift in Sources */,
+				A70B78992072796000B11254 /* Colors.swift in Sources */,
+				A7EE88062072630600CB7588 /* AppDelegate.swift in Sources */,
+				A74C16412073AFFC006459C3 /* ViewControllerState.swift in Sources */,
+				A74C163A20738A83006459C3 /* ModelProtocols.swift in Sources */,
+				A7CE3FD22073887500D77D41 /* APIStubs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7EE880E2072630600CB7588 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7EE880F2072630600CB7588 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7EE88122072630600CB7588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = liteKasta/Auxiliary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.markason.liteKasta;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+			};
+			name = Debug;
+		};
+		A7EE88132072630600CB7588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = liteKasta/Auxiliary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.markason.liteKasta;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7EE88152072630600CB7588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66EDB89014D4C691D12592F /* Pods-liteKasta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFURPFJ8QD;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A7EE88162072630600CB7588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F65A88F3A2395A8065A2AC /* Pods-liteKasta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFURPFJ8QD;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7EE87FD2072630600CB7588 /* Build configuration list for PBXProject "liteKasta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EE88122072630600CB7588 /* Debug */,
+				A7EE88132072630600CB7588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7EE88142072630600CB7588 /* Build configuration list for PBXNativeTarget "liteKasta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EE88152072630600CB7588 /* Debug */,
+				A7EE88162072630600CB7588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7EE87FA2072630600CB7588 /* Project object */;
+}

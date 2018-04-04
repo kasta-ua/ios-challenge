@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  liteKasta
+
+  Created by Zoreslav Khimich on 4/4/18.
+  Copyright © 2018 Markason LLC. All rights reserved.
+*/
+
+"error.reload-button.title" = "Повторить?";
